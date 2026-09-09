@@ -21,7 +21,7 @@ func (m model) wrapWidth() int {
 
 func (m model) renderMarkdown(src string) string {
 	r, err := glamour.NewTermRenderer(
-		glamour.WithStylePath(m.style),
+		styleOption(m.style),
 		glamour.WithWordWrap(m.wrapWidth()),
 		glamour.WithEmoji(),
 	)

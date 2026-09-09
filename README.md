@@ -20,7 +20,7 @@ curl -s https://raw.githubusercontent.com/charmbracelet/glow/master/README.md | 
 
 | Flag | Description |
 |------|-------------|
-| `-s` | style: `auto`, `dark`, `light`, `dracula`, `tokyo-night`, `pink`, `notty`, `ascii`, or a glamour JSON file |
+| `-s` | style: `auto`, `github`, `github-light`, `dark`, `light`, `dracula`, `tokyo-night`, `pink`, `notty`, `ascii`, or a glamour JSON file |
 | `-w` | wrap width, defaults to the terminal width capped at 120 |
 | `-v` | print version |
 

@@ -29,7 +29,7 @@ The mouse wheel scrolls too.
 
 ## Styles
 
-dark, light, dracula, tokyo-night, pink, notty, ascii
+github, github-light, dark, light, dracula, tokyo-night, pink, notty, ascii
 
 Pick one at start with ` + "`md-view -s dracula FILE`" + ` or pass the path to your own glamour JSON style file. Use ` + "`-w N`" + ` to force a wrap width.
 

@@ -14,7 +14,7 @@ import (
 const version = "0.1.0"
 
 func main() {
-	style := flag.String("s", "auto", "style: auto, dark, light, dracula, tokyo-night, pink, notty, ascii, or a glamour JSON file")
+	style := flag.String("s", "auto", "style: auto, github, github-light, dark, light, dracula, tokyo-night, pink, notty, ascii, or a glamour JSON file")
 	width := flag.Int("w", 0, "wrap width (0 = terminal width, capped at 120)")
 	showVersion := flag.Bool("v", false, "print version and exit")
 	flag.Usage = usage
@@ -53,9 +53,9 @@ func main() {
 
 	if *style == "auto" {
 		if lipgloss.HasDarkBackground() {
-			*style = "dark"
+			*style = "github"
 		} else {
-			*style = "light"
+			*style = "github-light"
 		}
 	}
 

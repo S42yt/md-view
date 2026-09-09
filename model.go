@@ -21,7 +21,7 @@ const (
 	modeHelp
 )
 
-var styleNames = []string{"dark", "light", "dracula", "tokyo-night", "pink", "notty", "ascii"}
+var styleNames = []string{"github", "github-light", "dark", "light", "dracula", "tokyo-night", "pink", "notty", "ascii"}
 
 type model struct {
 	path        string
